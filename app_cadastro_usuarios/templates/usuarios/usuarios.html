@@ -1,0 +1,30 @@
+{% extends 'usuarios/menu.html' %}
+{% block conteudo %}
+<br>
+<br>
+<br>
+<center>
+    <h2>Usuários Cadastrados</h2>
+    <br>
+    <div class="container">
+        
+        <table class="table align-middle table-bordered table-dark table-striped">
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Editar</th>
+                <th>Excluir</th>
+            </tr>
+            {% for usuario in usuarios %}
+            <tr>
+                <td>{{usuario.nome}}</td>
+                <td>{{usuario.idade}}</td>
+                <td><a href="{% url 'editar' usuario.id_user %}"><button type="submit" class="btn btn-primary">Editar</button></a></td>
+                <td><a href="{% url 'deletar' usuario.id_user %}"><button type="submit" class="btn btn-primary">Excluir</button></a></td>
+            </tr>
+            {% endfor %}
+        </table>
+    </div>
+</center>
+
+{% endblock %}
