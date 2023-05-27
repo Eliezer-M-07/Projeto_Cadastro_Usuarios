@@ -1,7 +1,4 @@
 # Projeto de Cadastro de Usuários com CRUD utilizando Django
-<br>
-
-
 
 <h3>- Introdução</h3>
 
