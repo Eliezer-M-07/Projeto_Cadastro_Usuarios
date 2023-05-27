@@ -11,4 +11,4 @@
 <h3>- Conclusão</h3>
 
 <p>
-O projeto de cadastro de usuários com CRUD desenvolvido utilizando Django é uma solução eficiente para o gerenciamento de informações de usuários. Com o uso das funcionalidades do Django, foi possível criar um sistema robusto e escalável, que pode ser facilmente expandido e adaptado para atender às necessidades específicas de diferentes projetos. O Django, com sua vasta documentação e comunidade ativa, é uma excelente escolha para o desenvolvimento web, proporcionando um ambiente produtivo e confiável </p>
+O projeto de cadastro de usuários com CRUD desenvolvido utilizando Django é uma solução eficiente para o gerenciamento de informações de usuários. Com o uso das funcionalidades do Django, foi possível criar um sistema robusto e escalável, que pode ser facilmente expandido e adaptado para atender às necessidades específicas de diferentes projetos. O Django, com sua vasta documentação e comunidade ativa, é uma excelente escolha para o desenvolvimento web, proporcionando um ambiente produtivo e confiável. </p>
